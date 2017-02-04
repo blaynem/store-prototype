@@ -5,7 +5,7 @@ export default class Header extends Component {
 
   render() {
     return(
-      <div style={{ width:"100%", background:"rgba(0,0,0,0.2"}} className="container">
+      <div style={{ width:"100%", background:"rgba(0,0,0,0.0"}} className="container">
       	<div style={{textAlign:"center", marginBottom:"20px"}} className="row">
 	        <div className="col-xs-2">
 	        	<h3><i className="glyphicon glyphicon-chevron-left"></i></h3>
