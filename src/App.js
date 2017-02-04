@@ -10,7 +10,7 @@ export default class App extends Component{
 				<div style={{margin:0}} className="row">
 					<Header />
 				</div>
-				<h1>suh</h1>
+				{this.props.children}
 			</div>
 		)
 	}
