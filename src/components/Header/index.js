@@ -18,10 +18,10 @@ export default class Header extends Component {
 	        </div>
       	</div>
       	<div style={{width:"100%", textAlign:"center", marginBottom:"20px"}} className="row">
-      		<Link to="/"><div style={{margin:"0 10px", display:"inline-block", color:"black"}}><h3 style={{fontSize:"1.2em"}}>Men's Outerwear</h3></div></Link>
-      		<Link to="/"><div style={{margin:"0 10px", display:"inline-block", color:"black"}}><h3 style={{fontSize:"1.2em"}}>Ladies Outerwear</h3></div></Link>
-      		<Link to="/"><div style={{margin:"0 10px", display:"inline-block", color:"black"}}><h3 style={{fontSize:"1.2em"}}>Men's T-Shirts</h3></div></Link>
-      		<Link to="/"><div style={{margin:"0 10px", display:"inline-block", color:"black"}}><h3 style={{fontSize:"1.2em"}}>Ladies T-Shirts</h3></div></Link>
+      		<Link to="/list/mens_outerwear"><div style={{margin:"0 10px", display:"inline-block", color:"black"}}><h3 style={{fontSize:"1.2em"}}>Men's Outerwear</h3></div></Link>
+      		<Link to="/list/ladies_outerwear"><div style={{margin:"0 10px", display:"inline-block", color:"black"}}><h3 style={{fontSize:"1.2em"}}>Ladies Outerwear</h3></div></Link>
+      		<Link to="/list/mens_tshirts"><div style={{margin:"0 10px", display:"inline-block", color:"black"}}><h3 style={{fontSize:"1.2em"}}>Men's T-Shirts</h3></div></Link>
+      		<Link to="/list/ladies_tshirts"><div style={{margin:"0 10px", display:"inline-block", color:"black"}}><h3 style={{fontSize:"1.2em"}}>Ladies T-Shirts</h3></div></Link>
       	</div>
       </div>
     );
