@@ -7,14 +7,14 @@ export default class Testimonials extends Component {
 		const things = (this.props.items[whatPage]);
 		console.log(things[0]);
 		return(
-			<figure className="container">
+			<div className="container">
 				{things.map((item, i) => 
 			        <ListPageItems
 			        	key={i + item.code}
 			            index={i}
 			            item={item}
 			            {...this.props}/>)}
-			</figure>
+			</div>
 		);
 	}
 };

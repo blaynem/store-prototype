@@ -4,14 +4,14 @@ const items = {
 			code:"10-15068",
 			id:1,
 			text:"Men's Tech Shell Full-Zip",
-			img_src:"10-15068A",
+			img_src:["10-15068A", "10-15068B"],
 			img_alt:""
 		},
 		{
 			code:"10-24102",
 			id:2,
 			text:"Ladies Modern Stretch Full-Zip",
-			img_src:"10-24102A",
+			img_src:["10-24102A", "10-24102B"],
 			img_alt:""
 		}
 	],
