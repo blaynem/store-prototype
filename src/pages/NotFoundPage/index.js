@@ -5,7 +5,6 @@ export default class Testimonials extends Component {
 		return(
 			<div className="container">
 				<h1>WHOOPSIE DOODLES</h1>
-				{this.props.children}
 			</div>
 		);
 	}

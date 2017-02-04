@@ -1,5 +1,7 @@
 import React from 'react';
-import { Router, Route, IndexRoute, hashHistory } from 'react-router';
+import { Router, Route, IndexRoute } from 'react-router';
+import { Provider } from 'react-redux';
+import store, { history } from './store';
 
 import App from './App';
 import HomePage from './pages/HomePage';
@@ -7,20 +9,22 @@ import NotFound from './pages/NotFoundPage';
 import ListPage from './pages/ListPage';
 
 const Routes = (props) => (
-	<Router history={hashHistory}>
-		<Route
-			path="/"
-			component={App} >
-			<IndexRoute
-				component={HomePage}/>
-			<Route 
-				path="/list/:category"
-				component={ListPage}/>
+	<Provider store={store}>
+		<Router history={history}>
 			<Route
-				path="*"
-				component={NotFound}/>
-		</Route>
-	</Router>
+				path="/"
+				component={App} >
+				<IndexRoute
+					component={HomePage}/>
+				<Route 
+					path="/list/:catId"
+					component={ListPage}/>
+				<Route
+					path="*"
+					component={NotFound}/>
+			</Route>
+		</Router>
+	</Provider>
 );
 
 export default Routes;
