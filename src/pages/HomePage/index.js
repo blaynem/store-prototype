@@ -6,21 +6,21 @@ export default class HomePage extends Component {
   render() {
 
     return(
-      <div className="container">
+      <div className="">
         <HomePageCategories
-        	name="Memes"
+        	name="Men's Outerwear"
         	catSize="col-xs-12"
         	headerImage="./images/mens_outerwear.jpg"/>
         <HomePageCategories
-        	name="Beer"
+        	name="Ladies Outerwear "
         	catSize="col-xs-12"
         	headerImage="./images/ladies_outerwear.jpg"/>
         <HomePageCategories
-        	name="Memes"
+        	name="Men's T-Shirts"
         	catSize="col-xs-6"
         	headerImage="./images/mens_tshirts.jpg"/>
         <HomePageCategories
-        	name="Beer"
+        	name="Ladies T-Shirts"
         	catSize="col-xs-6"
         	headerImage="./images/ladies_tshirts.jpg"/>
       </div>

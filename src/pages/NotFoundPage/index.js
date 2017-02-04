@@ -4,7 +4,7 @@ export default class Testimonials extends Component {
 	render() {
 		return(
 			<div className="container">
-				<h1>not found page</h1>
+				<h1>WHOOPSIE DOODLES</h1>
 				{this.props.children}
 			</div>
 		);
