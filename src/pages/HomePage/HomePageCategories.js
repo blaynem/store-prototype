@@ -3,11 +3,11 @@ import { Link } from 'react-router';
 
 export default class HomePageCategories extends Component {
 	render() {
-
-		const imageSrc = `./images/${this.props.category.img_src}.jpg`;
-		const linkTo = `/list/${this.props.category.code}`;
-		const divClassSize = (this.props.category.size);
-		const titleOfDiv = (this.props.category.title)
+		const { category } = this.props;
+		const imageSrc = `./images/${category.img_src}.jpg`;
+		const linkTo = `/list/${category.code}`;
+		const divClassSize = (category.size);
+		const titleOfDiv = (category.title)
 		const buttonStyle = {
 			backgroundColor: "white",
 			padding: "10px 30px",
