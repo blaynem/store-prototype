@@ -12,6 +12,7 @@ export default class HomePageCategories extends Component {
 				details = (items[i]);
 			}
 		};
+		console.log(details);
 		const imgsrc = `/images/${details.img_src[0]}.jpg`;
 		const imgStyle = {
 			maxHeight:"100%",
@@ -24,7 +25,17 @@ export default class HomePageCategories extends Component {
 				</div>
 				<div className="col-sm-6">
 					<h2>{details.text}</h2>
-					<h4>${details.price}</h4>
+					<h3>${details.price}</h3>
+					<h3>Description</h3>
+					<h4>{details.description}</h4>
+					<h3>Features</h3>
+					<ul>
+						<li>{details.features[0]}</li>
+						<li>{details.features[1]}</li>
+						<li>{details.features[2]}</li>
+						<li>{details.features[3]}</li>
+						<li>{details.features[4]}</li>
+					</ul>
 				</div>
 			</div>
 		)
