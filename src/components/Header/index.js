@@ -12,8 +12,8 @@ export default class Header extends Component {
     const titleStyle = {
       fontSize:"1.2em"
     }
+    // titles[0] has the name of title, titles[1] has the urls
     const titles = [["Men's Outerwear", "Ladies Outerwear", "Men's T-Shirts", "Ladies T-Shirts"], ["mens_outerwear", "ladies_outerwear", "mens_tshirts", "ladies_tshirts"]]
-    // oh my god it worked im a genius
     const titlesList = titles[0].map(
       (title, i) => (
         <Link to={`/list/${titles[1][i]}`} key={titles[1][i] + i}>
@@ -23,7 +23,6 @@ export default class Header extends Component {
         </Link>
       )
     )
-
 
     return(
       <div style={{ width:"100%", background:"rgba(0,0,0,0.0"}} className="container">
@@ -45,24 +44,3 @@ export default class Header extends Component {
     );
   }
 }
-
-      		// <Link to="/list/mens_outerwear">
-            // <div style={titleDivStyle}>
-              // <h3 style={titleStyle}>Men's Outerwear</h3>
-            // </div>
-          // </Link>
-      		// <Link to="/list/ladies_outerwear">
-            // <div style={titleDivStyle}>
-              // <h3 style={titleStyle}>Ladies Outerwear</h3>
-            // </div>
-          // </Link>
-      		// <Link to="/list/mens_tshirts">
-            // <div style={titleDivStyle}>
-              // <h3 style={titleStyle}>Men's T-Shirts</h3>
-            // </div>
-          // </Link>
-      		// <Link to="/list/ladies_tshirts">
-            // <div style={titleDivStyle}>
-              // <h3 style={titleStyle}>Ladies T-Shirts</h3>
-            // </div>
-          // </Link>
