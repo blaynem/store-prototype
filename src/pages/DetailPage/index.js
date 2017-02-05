@@ -12,7 +12,8 @@ export default class HomePageCategories extends Component {
 				details = (items[i]);
 			}
 		};
-		console.log(details);
+		const featureList = (details.features.map((features, i) => (<li key={i}>{features}</li>)));
+
 		const imgsrc = `/images/${details.img_src[0]}.jpg`;
 		const imgStyle = {
 			maxHeight:"100%",
@@ -30,11 +31,7 @@ export default class HomePageCategories extends Component {
 					<h4>{details.description}</h4>
 					<h3>Features</h3>
 					<ul>
-						<li>{details.features[0]}</li>
-						<li>{details.features[1]}</li>
-						<li>{details.features[2]}</li>
-						<li>{details.features[3]}</li>
-						<li>{details.features[4]}</li>
+						{featureList}
 					</ul>
 				</div>
 			</div>
