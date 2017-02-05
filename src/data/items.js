@@ -27,6 +27,14 @@ const items = {
 				"10-14154A",
 				"10-14154B"
 			],
+			description: "A versatile full-zip that you can wear all day long and even to the gym. This technical shell features moisture-wicking fabric, added stretch and a hidden pocket for your smartphone or media player.",
+			features: [
+				"100% polyester.",
+				"Smooth, technical front with textured mesh back.",
+				"Drawstring bottom for adjustable fit.",
+				"Raglan sleeves.",
+				"Available in forest green with the white Google logo embroidered at left chest."
+			]
 		},
 		{
 			code:"10-14157",
@@ -37,6 +45,14 @@ const items = {
 				"10-14157A",
 				"10-14157B"
 			],
+			description: "A versatile full-zip that you can wear all day long and even to the gym. This technical shell features moisture-wicking fabric, added stretch and a hidden pocket for your smartphone or media player.",
+			features: [
+				"100% polyester.",
+				"Smooth, technical front with textured mesh back.",
+				"Drawstring bottom for adjustable fit.",
+				"Raglan sleeves.",
+				"Available in forest green with the white Google logo embroidered at left chest."
+			]
 		}
 	],
 	ladies_outerwear:[
@@ -49,6 +65,14 @@ const items = {
 				"10-24102A",
 				"10-24102B"
 			],
+			description: "A versatile full-zip that you can wear all day long and even to the gym. This technical shell features moisture-wicking fabric, added stretch and a hidden pocket for your smartphone or media player.",
+			features: [
+				"100% polyester.",
+				"Smooth, technical front with textured mesh back.",
+				"Drawstring bottom for adjustable fit.",
+				"Raglan sleeves.",
+				"Available in forest green with the white Google logo embroidered at left chest."
+			]
 		},
 		{
 			code:"10-25058",
@@ -59,6 +83,14 @@ const items = {
 				"10-25058A",
 				"10-25058B"
 			],
+			description: "A versatile full-zip that you can wear all day long and even to the gym. This technical shell features moisture-wicking fabric, added stretch and a hidden pocket for your smartphone or media player.",
+			features: [
+				"100% polyester.",
+				"Smooth, technical front with textured mesh back.",
+				"Drawstring bottom for adjustable fit.",
+				"Raglan sleeves.",
+				"Available in forest green with the white Google logo embroidered at left chest."
+			]
 		},
 		{
 			code:"10-24097",
@@ -69,6 +101,14 @@ const items = {
 				"10-24097A",
 				"10-24097B"
 			],
+			description: "A versatile full-zip that you can wear all day long and even to the gym. This technical shell features moisture-wicking fabric, added stretch and a hidden pocket for your smartphone or media player.",
+			features: [
+				"100% polyester.",
+				"Smooth, technical front with textured mesh back.",
+				"Drawstring bottom for adjustable fit.",
+				"Raglan sleeves.",
+				"Available in forest green with the white Google logo embroidered at left chest."
+			]
 		}
 	],
 	mens_tshirts: [
@@ -81,6 +121,14 @@ const items = {
 				"10-13256A",
 				"10-13256B"
 			],
+			description: "A versatile full-zip that you can wear all day long and even to the gym. This technical shell features moisture-wicking fabric, added stretch and a hidden pocket for your smartphone or media player.",
+			features: [
+				"100% polyester.",
+				"Smooth, technical front with textured mesh back.",
+				"Drawstring bottom for adjustable fit.",
+				"Raglan sleeves.",
+				"Available in forest green with the white Google logo embroidered at left chest."
+			]
 		},
 		{
 			code:"10-13239",
@@ -91,6 +139,14 @@ const items = {
 				"10-13239A",
 				"10-13239B"
 			],
+			description: "A versatile full-zip that you can wear all day long and even to the gym. This technical shell features moisture-wicking fabric, added stretch and a hidden pocket for your smartphone or media player.",
+			features: [
+				"100% polyester.",
+				"Smooth, technical front with textured mesh back.",
+				"Drawstring bottom for adjustable fit.",
+				"Raglan sleeves.",
+				"Available in forest green with the white Google logo embroidered at left chest."
+			]
 		},
 		{
 			code:"10-13018",
@@ -101,6 +157,14 @@ const items = {
 				"10-13018A",
 				"10-13018B"
 			],
+			description: "A versatile full-zip that you can wear all day long and even to the gym. This technical shell features moisture-wicking fabric, added stretch and a hidden pocket for your smartphone or media player.",
+			features: [
+				"100% polyester.",
+				"Smooth, technical front with textured mesh back.",
+				"Drawstring bottom for adjustable fit.",
+				"Raglan sleeves.",
+				"Available in forest green with the white Google logo embroidered at left chest."
+			]
 		}
 	],
 	ladies_tshirts: [
@@ -113,6 +177,14 @@ const items = {
 				"10-23179A",
 				"10-23179B"
 			],
+			description: "A versatile full-zip that you can wear all day long and even to the gym. This technical shell features moisture-wicking fabric, added stretch and a hidden pocket for your smartphone or media player.",
+			features: [
+				"100% polyester.",
+				"Smooth, technical front with textured mesh back.",
+				"Drawstring bottom for adjustable fit.",
+				"Raglan sleeves.",
+				"Available in forest green with the white Google logo embroidered at left chest."
+			]
 		},
 		{
 			code:"10-23226",
@@ -123,6 +195,14 @@ const items = {
 				"10-23226A",
 				"10-23226B"
 			],
+			description: "A versatile full-zip that you can wear all day long and even to the gym. This technical shell features moisture-wicking fabric, added stretch and a hidden pocket for your smartphone or media player.",
+			features: [
+				"100% polyester.",
+				"Smooth, technical front with textured mesh back.",
+				"Drawstring bottom for adjustable fit.",
+				"Raglan sleeves.",
+				"Available in forest green with the white Google logo embroidered at left chest."
+			]
 		},
 		{
 			code:"10-23180",
@@ -133,6 +213,14 @@ const items = {
 				"10-23180A",
 				"10-23180B"
 			],
+			description: "A versatile full-zip that you can wear all day long and even to the gym. This technical shell features moisture-wicking fabric, added stretch and a hidden pocket for your smartphone or media player.",
+			features: [
+				"100% polyester.",
+				"Smooth, technical front with textured mesh back.",
+				"Drawstring bottom for adjustable fit.",
+				"Raglan sleeves.",
+				"Available in forest green with the white Google logo embroidered at left chest."
+			]
 		}
 	]
 }
