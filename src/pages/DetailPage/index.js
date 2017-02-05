@@ -22,12 +22,24 @@ export default class HomePageCategories extends Component {
 
 		// maps through the features in items data and places them in a list
 		const featureList = (details.features.map((features, i) => (<li key={i}>{features}</li>)));
+		// maps through the sizes in items data and places them in the drop down
+		const sizesList = (details.sizes.map((sizes, i) => (<option key={i}>{sizes}</option>)));
+		// m
+		const quantityList = ([1,2,3,4,5].map((quantity, i) => (<option key={i}>{quantity}</option>)));
+
 
 		// gets the correct image to be displayed
 		const imgsrc = `/images/${details.img_src[0]}.jpg`;
 		const imgStyle = {
 			maxHeight:"100%",
 			margin:"auto"
+		}
+		const buttonStyle = {
+			backgroundColor: "white",
+			padding: "10px 50px",
+			border: "2px solid black",
+			color: "black",
+			textTransform: "uppercase"
 		}
 		return (
 			<div style={{margin:0}} className="row">
@@ -37,12 +49,29 @@ export default class HomePageCategories extends Component {
 				<div className="col-sm-6">
 					<h2>{details.text}</h2>
 					<h3>${details.price}</h3>
+					<div style={{margin:0}} className="row">
+						<span>Size:</span>
+						<select style={{marginLeft:"12%", width:"75%", height:"30px", backgroundColor:"white", textTransform:"uppercase"}} className="selectpicker">
+							{sizesList}
+						</select>
+					</div>
+					<div style={{margin:0}} className="row">
+						<span>Quantity:</span>
+						<select style={{marginLeft:"5%", width:"75%", height:"30px", backgroundColor:"white"}} className="selectpicker">
+							{quantityList}
+						</select>
+					</div>
 					<h3>Description</h3>
 					<h4>{details.description}</h4>
 					<h3>Features</h3>
 					<ul>
 						{featureList}
 					</ul>
+					<div style={{margin:0}} className="row">
+						<button
+							style={buttonStyle}
+							type="button">Add To Cart</button>
+					</div>
 				</div>
 			</div>
 		)

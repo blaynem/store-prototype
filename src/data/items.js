@@ -16,6 +16,13 @@ const items = {
 				"Drawstring bottom for adjustable fit.",
 				"Raglan sleeves.",
 				"Available in forest green with the white Google logo embroidered at left chest."
+			],
+			sizes: [
+				"xs",
+				"s",
+				"m",
+				"l",
+				"xl"
 			]
 		},
 		{
@@ -31,6 +38,13 @@ const items = {
 			features: [
 				"40% preshrunk ring-spun cotton, 60% polyester terry fleece.", 
 				"Available in dark heather charcoal with the white Google logo screen printed across center chest."
+			],
+			sizes: [
+				"xs",
+				"s",
+				"m",
+				"l",
+				"xl"
 			]
 		},
 		{
@@ -48,6 +62,13 @@ const items = {
 				"Made in the USA.", 
 				"Full-zip.", 
 				"Available in green with specks of blue and the white Google logo embroidered at left bicep." 
+			],
+			sizes: [
+				"xs",
+				"s",
+				"m",
+				"l",
+				"xl"
 			]
 		}
 	],
@@ -70,6 +91,13 @@ const items = {
 				"Front slash pockets.",
 				"Open cuffs & hem.",
 				"Available in Mosaic Blue with the white Google logo embroidered at left chest." 
+			],
+			sizes: [
+				"xs",
+				"s",
+				"m",
+				"l",
+				"xl"
 			]
 		},
 		{
@@ -88,6 +116,13 @@ const items = {
 				"Cadet collar and elastic cuffs.",
 				"Adjustable toggles at waist can be cinched for a flattering fit.",
 				"Available in grey/dark rose with the white Google logo embroidered at left chest."
+			],
+			sizes: [
+				"xs",
+				"s",
+				"m",
+				"l",
+				"xl"
 			]
 		},
 		{
@@ -103,6 +138,13 @@ const items = {
 			features: [
 				"94% polyester, 6% spandex.",
 				"Available in black with the white Google logo heat transferred onto right hip along zipper."
+			],
+			sizes: [
+				"xs",
+				"s",
+				"m",
+				"l",
+				"xl"
 			]
 		}
 	],
@@ -120,6 +162,13 @@ const items = {
 			features: [
 				"60% cotton, 40% polyester blend.",
 				"Available in charcoal heather with the inbox icons screenprinted at front chest and inbox tag sewn onto left sleeve."
+			],
+			sizes: [
+				"xs",
+				"s",
+				"m",
+				"l",
+				"xl"
 			]
 		},
 		{
@@ -138,6 +187,13 @@ const items = {
 				"Tag-free label for added comfort.",
 				"Available in royal blue with the Super Droid robot screen printed at center chest.",
 				"Sizes run smaller than normal. Reference men's sizing chart for additional details."
+			],
+			sizes: [
+				"xs",
+				"s",
+				"m",
+				"l",
+				"xl"
 			]
 		},
 		{
@@ -154,6 +210,13 @@ const items = {
 				"100% smooth organic cotton.",
 				"Available in black with the Android design screenprinted at front chest.",
 				"Sizing runs smaller than normal. Please reference size chart before ordering."
+			],
+			sizes: [
+				"xs",
+				"s",
+				"m",
+				"l",
+				"xl"
 			]
 		}
 	],
@@ -172,6 +235,13 @@ const items = {
 				"50% polyester, 25% cotton.",
 				"Bella+Canvas.",
 				"Available in vintage red with the new Gmail print screenprinted across center chest."
+			],
+			sizes: [
+				"xs",
+				"s",
+				"m",
+				"l",
+				"xl"
 			]
 		},
 		{
@@ -189,6 +259,13 @@ const items = {
 				"American Apparel shirt designed with a ladies fit in mind.",
 				"Available in Black with the Google logo and 'I'm Feeling Lucky' New York printed on back yoke in White.",
 				"Sizing runs smaller than normal. Please reference size chart before ordering."
+			],
+			sizes: [
+				"xs",
+				"s",
+				"m",
+				"l",
+				"xl"
 			]
 		},
 		{
@@ -206,6 +283,13 @@ const items = {
 				"Side-seamed.",
 				"Semi-relaxed fit. ",
 				"Available in heather blue with the white Google Chrome logo screenprinted at center chest. "
+			],
+			sizes: [
+				"xs",
+				"s",
+				"m",
+				"l",
+				"xl"
 			]
 		}
 	]
