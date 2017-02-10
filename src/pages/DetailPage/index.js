@@ -17,6 +17,7 @@ export default class HomePageCategories extends Component {
 		for (var i=0; i<items.length; i++){	
 			if (items[i].code === itemParams){
 				details = (items[i]);
+				break;
 			}
 		};
 
@@ -51,13 +52,13 @@ export default class HomePageCategories extends Component {
 					<h3>${details.price}</h3>
 					<div style={{margin:0}} className="row">
 						<span>Size:</span>
-						<select style={{marginLeft:"12%", width:"75%", height:"30px", backgroundColor:"white", textTransform:"uppercase"}} className="selectpicker">
+						<select style={{marginLeft:"54px", width:"75%", height:"30px", backgroundColor:"white", textTransform:"uppercase"}} className="selectpicker">
 							{sizesList}
 						</select>
 					</div>
 					<div style={{margin:0}} className="row">
 						<span>Quantity:</span>
-						<select style={{marginLeft:"5%", width:"75%", height:"30px", backgroundColor:"white"}} className="selectpicker">
+						<select style={{marginLeft:"25px", marginTop:"10px", width:"75%", height:"30px", backgroundColor:"white"}} className="selectpicker">
 							{quantityList}
 						</select>
 					</div>
